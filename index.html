@@ -41,45 +41,183 @@
   <a class="nav-link" href="#menu">Menu</a>
 </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Lisää</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Aukioloajat</a></li>
-            <li><a class="dropdown-item" href="#">Asiakaspalvelu</a></li>
-            <li><a class="dropdown-item" href="#">Yhteystiedot</a></li>
-          </ul>
-        </li>
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+    Lisää
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#aukioloajat">Aukioloajat</a></li>
+    <li><a class="dropdown-item" href="#ukk">Usein kysyttyä</a></li>
+    <li><a class="dropdown-item" href="#yhteystiedot">Yhteystiedot</a></li>
+  </ul>
+</li>
       </ul>
     </div>
   </div>
 </nav> 
 
-     <h1>Julieteria</h1> 
-<p>Tervetuloa kahvilaan!</p>
+     <section id="etusivu">
 
+    <h1>Julieteria</h1>
 
+    <p>Tervetuloa kahvilaan!</p>
 
-<!-- Kuvakaruselli -->
-<div id="carouselExample" class="carousel slide">
+    <!-- Kuvakaruselli -->
+    <div id="carouselExample" class="carousel slide">
 
-    <div class="carousel-inner">
+        <div class="carousel-inner">
 
-        <div class="carousel-item active">
-            <img src="karuselli1.gif" class="d-block w-100" alt="Juléterian kahvilan tunnelmaa">
+            <div class="carousel-item active">
+                <img src="images/karuselli1.gif" 
+                     class="d-block w-100" 
+                     alt="Juléterian kahvilan tunnelmaa">
+            </div>
+
         </div>
 
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Edellinen</span>
-    </button>
+</section>
 
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Seuraava</span>
-    </button>
+<!-- Kahvila -->
+<section id="kahvila" class="container py-5">
 
-</div>
+    <h2>Kahvila</h2>
+
+    <p>
+        Julieteria on viihtyisä kahvila, jossa voit nauttia
+        hyvästä kahvista, herkullisista leivonnaisista ja
+        rauhallisesta tunnelmasta.
+    </p>
+
+    <h3>Aukioloajat</h3>
+
+    <div class="table-responsive">
+
+        <table class="table table-striped">
+
+            <thead>
+                <tr>
+                    <th scope="col">Päivä</th>
+                    <th scope="col">Aukioloajat</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Maanantai</td>
+                    <td>8–18</td>
+                </tr>
+
+                <tr>
+                    <td>Tiistai</td>
+                    <td>8–18</td>
+                </tr>
+
+                <tr>
+                    <td>Keskiviikko</td>
+                    <td>8–18</td>
+                </tr>
+
+                <tr>
+                    <td>Torstai</td>
+                    <td>8–20</td>
+                </tr>
+
+                <tr>
+                    <td>Perjantai</td>
+                    <td>8–20</td>
+                </tr>
+
+                <tr>
+                    <td>Lauantai ja Sunnuntai</td>
+                    <td>10–18</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- Menu -->
+<section id="menu" class="container py-5">
+
+    <h2>Menu</h2>
+
+    <div class="row">
+
+        <!-- Kortti 1 -->
+        <div class="col-md-4 mb-4">
+
+            <div class="card h-100">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Cappuccino</h3>
+
+                    <p class="card-text">
+                        Pehmeä espressojuoma maitovaahdolla.
+                    </p>
+
+                    <p><strong>4,50 €</strong></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Kortti 2 -->
+        <div class="col-md-4 mb-4">
+
+            <div class="card h-100">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Korvapuusti</h3>
+
+                    <p class="card-text">
+                        Lämmin ja herkullinen klassikkoleivonnainen.
+                    </p>
+
+                    <p><strong>3,50 €</strong></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Kortti 3 -->
+        <div class="col-md-4 mb-4">
+
+            <div class="card h-100">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Jääkahvi</h3>
+
+                    <p class="card-text">
+                        Raikas kahvijuoma lämpimään päivään.
+                    </p>
+
+                    <p><strong>5,00 €</strong></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 </body>
 </html>
