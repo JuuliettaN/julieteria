@@ -28,3 +28,13 @@ h1 {
     height: 500px;
     object-fit: cover;
 }
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+}
