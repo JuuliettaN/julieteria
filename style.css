@@ -38,3 +38,7 @@ h1 {
         height: 250px;
     }
 }
+.logo {
+    width: 100px;
+    height: auto;
+}
