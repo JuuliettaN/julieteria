@@ -15,9 +15,10 @@ fetch("henkilo.json")
 function kerro(objekti) {}
 
 let tiedot = "<h1>" + objekti.otsikko + "</h1><br>" + + objekti.kuvaus + "<br><br>"
++ "<p><img src='" + objekti.kuva + "></p>"
 
 + "<h3>" + "Opintojakso" + "</h3>" + "Nimi: " + objekti.opintojakso.nimi + "<br>"
 + "Tunnus: " + objekti.opintojakso.tunnus + "<br>" 
 + "Opintopisteet: " + objekti.opintojakso.opintopisteet + "<br>"
-
++ "Aika: " + objekti.opintojakso.aika + "<br>"
 tiedot += "<p><h3> Aiheet </h3>"
